@@ -1,0 +1,38 @@
+# .NET
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+[Dd]ebug/
+[Rr]elease/
+*.nupkg
+*.snupkg
+TestResults/
+.vs/
+artifacts/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# IDE and agent
+/.idea/
+/.vscode/
+/.cursor/
+/.history/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+
+# Logs and caches
+*.log
+*.cache

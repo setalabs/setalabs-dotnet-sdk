@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{873406C8-A183-4567-AA4C-369A7BF706F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Setalabs.Sdk", "src\Setalabs.Sdk\Setalabs.Sdk.csproj", "{100AA4CF-C110-47A0-8455-0ABFEFC258F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{2AB8F65C-1CD4-4DF4-BA46-BCB513A97587}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Setalabs.Sdk.Tests", "tests\Setalabs.Sdk.Tests\Setalabs.Sdk.Tests.csproj", "{31E7FDFB-01BE-44D0-87EE-6C0BC2B0979D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{100AA4CF-C110-47A0-8455-0ABFEFC258F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{100AA4CF-C110-47A0-8455-0ABFEFC258F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{100AA4CF-C110-47A0-8455-0ABFEFC258F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{100AA4CF-C110-47A0-8455-0ABFEFC258F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31E7FDFB-01BE-44D0-87EE-6C0BC2B0979D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31E7FDFB-01BE-44D0-87EE-6C0BC2B0979D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31E7FDFB-01BE-44D0-87EE-6C0BC2B0979D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31E7FDFB-01BE-44D0-87EE-6C0BC2B0979D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{100AA4CF-C110-47A0-8455-0ABFEFC258F8} = {873406C8-A183-4567-AA4C-369A7BF706F3}
+		{31E7FDFB-01BE-44D0-87EE-6C0BC2B0979D} = {2AB8F65C-1CD4-4DF4-BA46-BCB513A97587}
+	EndGlobalSection
+EndGlobal
